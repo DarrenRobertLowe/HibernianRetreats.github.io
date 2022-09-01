@@ -45,13 +45,13 @@ img {
 .leftImage {
 	float:left;
 	object-fit: cover;
-	width: 30%;
+	width: 40%;
 
 }
 .rightImage {
 	float:right;
 	object-fit: cover;
-	width: 30%;
+	width: 45%;
 
 }
 

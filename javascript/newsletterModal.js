@@ -14,7 +14,7 @@ var registrationClose = document.getElementsByClassName("close")[0];
 $(document).ready(function(){
    setTimeout(function(){
        newsmodal.style.display = "block";
-   }, 5000);
+   }, 15000); // how long in milliseconds to wait before displaying the modal. e.g. 1000 = 1 second
 });
 
 // allow 'X' to close the modal
