@@ -77,38 +77,22 @@ img {
 	margin-right:auto;
 }
 
-/* debug borders */
-/*
 
-#navbar {
-	border: solid 2px gray;
+.modal form {
+	width:90%;
 }
 
-
-.buffer{
-	border: solid 2px pink;
+.modal form input {
+	width:90%;
+	display: block;
+    margin: 1.0em auto;
 }
 
-#contentArea {
-	border: solid 2px red;
+.emailError {
+	color:teal;
 }
 
-#content {
-	border: solid 2px brown;
-}
-
-.row{
-	border: solid 2px yellow;
-}
-
-#carouselArea{
-	border: solid 2px blue;
-}
-
-.col-sm-4{
-	border: solid 2px blue;
-}
-
-.col-sm-8{
-	border: solid 2px green;
+#Send {
+	width:25%;
+	min-width:50px;
 }

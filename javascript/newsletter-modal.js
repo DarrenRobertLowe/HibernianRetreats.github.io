@@ -1,7 +1,7 @@
 /* Based on code from https://www.w3schools.com/howto/howto_css_modals.asp */
 
 // not sure of law surrounding non-tracking cookies so we can't use this
-/* localStorage.setItem('IsModalShown', false); */ 
+// localStorage.setItem('IsModalShown', false);
 
 
 // Get the modal
@@ -22,6 +22,7 @@ registrationClose.onclick = function() {
 	newsmodal.style.display = "none";
 }
 
+
 // Allow clicking outside the modals to dismiss them
 window.onclick = function(event) {
 	if (event.target == newsmodal) {
@@ -33,11 +34,13 @@ window.onclick = function(event) {
 	}
 }
 
-function submitEmail(){
-	/* hide the modal now */
-	newsmodal.style.display = "none";
-	thanksModal.style.display = "block";
+
+// see email-validation.js
+function emailConfirmed() {
+	newsmodal.style.display 	= "none";
+	thanksModal.style.display 	= "block";
 }
+
 
 function closeThanksModal(){
 	thanksModal.style.display = "none";

@@ -231,18 +231,21 @@
 				<h4>Please consider subscribing to our newsletter to keep up to date with all our latest news and offers!</h4>
 				<br/>
 				<br/>
-				<form onsubmit="submitEmail();return false"> <!-- prevents submission from reloading page -->
-					<label for="form_email">Email: </label>
-					<input type="email" id="form_email"/>
+				
+				<form>
+					<fieldset class="email">
+						<legend>Email</legend>
+							<input type="text" name="email" id="email">
+						</fieldset>
+							<span class="emailError">Please enter a valid email!</span>
+						<br/>
 					<br/>
-					<div id="submit">
-						<input type="submit" id="submit_email"/>
-					</div>
+					<input type="submit" value="Send" id="Send">
 				</form>
 			</div>
 		</div>
 		
-
+		
 		<!-- thanks modal -->
 		<div id="thanksModal" class="modal">
 			<div class="modal-content">
@@ -258,6 +261,7 @@
 		<!-- JavaScript -->
 		<!-- the scripts need to go before the </body> tag so that everything
 			is fully loaded before them. -->
-		<script src="javascript/newsletterModal.js"></script>
+		<script src="javascript/newsletter-modal.js"></script>
+		<script src="javascript/validate-email.js"></script>
 	</body>
 </html>

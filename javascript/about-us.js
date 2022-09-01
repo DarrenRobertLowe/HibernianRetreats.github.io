@@ -72,13 +72,14 @@ $(document).ready(function() {
 		return false;
 	} else {
 		$('.commentsError').hide();
-		modal.style.display = "block";	// show the modal
+		modal.style.display = "block";		// show the modal
 		$('#contactForm').trigger("reset");	// reset the form
 	}
 
     return false;
 });
 });
+
 
 function IsEmail(email) {
 var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
