@@ -1,2 +1,2 @@
 # HibernianRetreats.github.io
- Web Development Project for Nationa Colllege of Ireland 2022
+ Web Development Project for National Colllege of Ireland 2022
